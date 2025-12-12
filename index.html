@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sleep & Stress Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sleep & Stress Data Analysis</h1>
+
+<p>Select a group to analyze:</p>
+
+<select id="choice">
+    <option value="1">People sleeping LESS than 6 hours</option>
+    <option value="2">People sleeping MORE than 6 hours</option>
+    <option value="3">People with LESS stress</option>
+    <option value="4">People with MORE stress</option>
+</select>
+
+<button onclick="runAnalysis()">Run Analysis</button>
+
+<h2>Results:</h2>
+<pre id="output">Waiting for input...</pre>
+
+<script src="script.js"></script>
+
+</body>
+</html>
